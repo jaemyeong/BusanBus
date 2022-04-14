@@ -51,6 +51,7 @@
 		7B567F292801E60600C84824 /* BusanBusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusanBusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B567F2D2801E60600C84824 /* BusanBusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusanBusUITests.swift; sourceTree = "<group>"; };
 		7B567F2F2801E60600C84824 /* BusanBusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusanBusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7BDEBC5A2807DB410084FCBA /* BusanBus.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = BusanBus.sketch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		7B567EFD2801E60100C84824 = {
 			isa = PBXGroup;
 			children = (
+				7BDEBC5A2807DB410084FCBA /* BusanBus.sketch */,
 				7B567F082801E60100C84824 /* BusanBus */,
 				7B567F222801E60600C84824 /* BusanBusTests */,
 				7B567F2C2801E60600C84824 /* BusanBusUITests */,
