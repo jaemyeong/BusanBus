@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B182C45281B0529009B4961 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B182C47281B0529009B4961 /* InfoPlist.strings */; };
+		7B182C4A281B0F58009B4961 /* BusanBusCoordinator in Frameworks */ = {isa = PBXBuildFile; productRef = 7B182C49281B0F58009B4961 /* BusanBusCoordinator */; };
+		7B36BC26281AF33B003D9E95 /* ErrorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7B36BC25281AF33B003D9E95 /* ErrorKit */; };
 		7B567F0A2801E60100C84824 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B567F092801E60100C84824 /* AppDelegate.swift */; };
 		7B567F0C2801E60100C84824 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B567F0B2801E60100C84824 /* SceneDelegate.swift */; };
-		7B567F0E2801E60100C84824 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B567F0D2801E60100C84824 /* ViewController.swift */; };
-		7B567F112801E60100C84824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B567F0F2801E60100C84824 /* Main.storyboard */; };
 		7B567F142801E60100C84824 /* BusanBus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B567F122801E60100C84824 /* BusanBus.xcdatamodeld */; };
 		7B567F162801E60500C84824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B567F152801E60500C84824 /* Assets.xcassets */; };
 		7B567F192801E60500C84824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B567F172801E60500C84824 /* LaunchScreen.storyboard */; };
 		7B567F242801E60600C84824 /* BusanBusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B567F232801E60600C84824 /* BusanBusTests.swift */; };
 		7B567F2E2801E60600C84824 /* BusanBusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B567F2D2801E60600C84824 /* BusanBusUITests.swift */; };
 		7B567F302801E60600C84824 /* BusanBusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B567F2F2801E60600C84824 /* BusanBusUITestsLaunchTests.swift */; };
+		7BFE4074281C44180005DE61 /* OpenWeatherAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 7BFE4073281C44180005DE61 /* OpenWeatherAPI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B182C40281B0423009B4961 /* BusanBusMain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BusanBusMain; path = Packages/BusanBusMain; sourceTree = "<group>"; };
+		7B182C46281B0529009B4961 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B182C48281B0F4D009B4961 /* BusanBusCoordinator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BusanBusCoordinator; path = Packages/BusanBusCoordinator; sourceTree = "<group>"; };
+		7B36BC1E281AF16A003D9E95 /* WeatherIndicatorView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = WeatherIndicatorView; path = Packages/WeatherIndicatorView; sourceTree = "<group>"; };
 		7B567F062801E60100C84824 /* BusanBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusanBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B567F092801E60100C84824 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B567F0B2801E60100C84824 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7B567F0D2801E60100C84824 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7B567F102801E60100C84824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B567F132801E60100C84824 /* BusanBus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BusanBus.xcdatamodel; sourceTree = "<group>"; };
 		7B567F152801E60500C84824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B567F182801E60500C84824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +56,8 @@
 		7B567F2D2801E60600C84824 /* BusanBusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusanBusUITests.swift; sourceTree = "<group>"; };
 		7B567F2F2801E60600C84824 /* BusanBusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusanBusUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7BDEBC5A2807DB410084FCBA /* BusanBus.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = BusanBus.sketch; sourceTree = "<group>"; };
+		7BE213D4283755490029D75E /* Busan.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Busan.gpx; sourceTree = "<group>"; };
+		7BFE4072281C42950005DE61 /* OpenWeatherAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = OpenWeatherAPI; path = Packages/OpenWeatherAPI; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B36BC26281AF33B003D9E95 /* ErrorKit in Frameworks */,
+				7B182C4A281B0F58009B4961 /* BusanBusCoordinator in Frameworks */,
+				7BFE4074281C44180005DE61 /* OpenWeatherAPI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,14 +88,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B36BC1D281AF16A003D9E95 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				7B36BC1E281AF16A003D9E95 /* WeatherIndicatorView */,
+				7B182C40281B0423009B4961 /* BusanBusMain */,
+				7B182C48281B0F4D009B4961 /* BusanBusCoordinator */,
+				7BFE4072281C42950005DE61 /* OpenWeatherAPI */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		7B36BC1F281AF22A003D9E95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7B567EFD2801E60100C84824 = {
 			isa = PBXGroup;
 			children = (
+				7BE213D4283755490029D75E /* Busan.gpx */,
 				7BDEBC5A2807DB410084FCBA /* BusanBus.sketch */,
 				7B567F082801E60100C84824 /* BusanBus */,
 				7B567F222801E60600C84824 /* BusanBusTests */,
 				7B567F2C2801E60600C84824 /* BusanBusUITests */,
+				7B36BC1D281AF16A003D9E95 /* Packages */,
 				7B567F072801E60100C84824 /* Products */,
+				7B36BC1F281AF22A003D9E95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,11 +135,10 @@
 			children = (
 				7B567F092801E60100C84824 /* AppDelegate.swift */,
 				7B567F0B2801E60100C84824 /* SceneDelegate.swift */,
-				7B567F0D2801E60100C84824 /* ViewController.swift */,
-				7B567F0F2801E60100C84824 /* Main.storyboard */,
-				7B567F152801E60500C84824 /* Assets.xcassets */,
 				7B567F172801E60500C84824 /* LaunchScreen.storyboard */,
 				7B567F1A2801E60500C84824 /* Info.plist */,
+				7B182C47281B0529009B4961 /* InfoPlist.strings */,
+				7B567F152801E60500C84824 /* Assets.xcassets */,
 				7B567F122801E60100C84824 /* BusanBus.xcdatamodeld */,
 			);
 			path = BusanBus;
@@ -148,6 +177,11 @@
 			dependencies = (
 			);
 			name = BusanBus;
+			packageProductDependencies = (
+				7B36BC25281AF33B003D9E95 /* ErrorKit */,
+				7B182C49281B0F58009B4961 /* BusanBusCoordinator */,
+				7BFE4073281C44180005DE61 /* OpenWeatherAPI */,
+			);
 			productName = BusanBus;
 			productReference = 7B567F062801E60100C84824 /* BusanBus.app */;
 			productType = "com.apple.product-type.application";
@@ -220,6 +254,9 @@
 				Base,
 			);
 			mainGroup = 7B567EFD2801E60100C84824;
+			packageReferences = (
+				7B36BC24281AF33B003D9E95 /* XCRemoteSwiftPackageReference "ErrorKit" */,
+			);
 			productRefGroup = 7B567F072801E60100C84824 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -237,8 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B567F192801E60500C84824 /* LaunchScreen.storyboard in Resources */,
+				7B182C45281B0529009B4961 /* InfoPlist.strings in Resources */,
 				7B567F162801E60500C84824 /* Assets.xcassets in Resources */,
-				7B567F112801E60100C84824 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +301,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B567F142801E60100C84824 /* BusanBus.xcdatamodeld in Sources */,
-				7B567F0E2801E60100C84824 /* ViewController.swift in Sources */,
 				7B567F0A2801E60100C84824 /* AppDelegate.swift in Sources */,
 				7B567F0C2801E60100C84824 /* SceneDelegate.swift in Sources */,
 			);
@@ -303,12 +339,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7B567F0F2801E60100C84824 /* Main.storyboard */ = {
+		7B182C47281B0529009B4961 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7B567F102801E60100C84824 /* Base */,
+				7B182C46281B0529009B4961 /* ko */,
 			);
-			name = Main.storyboard;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		7B567F172801E60500C84824 /* LaunchScreen.storyboard */ = {
@@ -449,9 +485,10 @@
 				DEVELOPMENT_TEAM = 67YPF88Z6T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BusanBus/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = NSLocationWhenInUseUsageDescription;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "맞춤형 광고 제공을 위해 사용자의 데이터가 사용됩니다.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -462,6 +499,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -474,9 +512,10 @@
 				DEVELOPMENT_TEAM = 67YPF88Z6T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BusanBus/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = NSLocationWhenInUseUsageDescription;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "맞춤형 광고 제공을 위해 사용자의 데이터가 사용됩니다.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -487,6 +526,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -502,6 +542,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusanBus.app/BusanBus";
 			};
 			name = Debug;
@@ -518,6 +559,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusanBus.app/BusanBus";
 			};
 			name = Release;
@@ -533,6 +575,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = BusanBus;
 			};
 			name = Debug;
@@ -548,6 +591,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = BusanBus;
 			};
 			name = Release;
@@ -592,6 +636,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7B36BC24281AF33B003D9E95 /* XCRemoteSwiftPackageReference "ErrorKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jaemyeong/ErrorKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7B182C49281B0F58009B4961 /* BusanBusCoordinator */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BusanBusCoordinator;
+		};
+		7B36BC25281AF33B003D9E95 /* ErrorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B36BC24281AF33B003D9E95 /* XCRemoteSwiftPackageReference "ErrorKit" */;
+			productName = ErrorKit;
+		};
+		7BFE4073281C44180005DE61 /* OpenWeatherAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OpenWeatherAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		7B567F122801E60100C84824 /* BusanBus.xcdatamodeld */ = {
