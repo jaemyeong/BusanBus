@@ -1,7 +1,6 @@
 import UIKit
 import Core
 
-@main
 public final class AppDelegate: UIResponder, UIApplicationDelegate {
     
     public func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
