@@ -6,3 +6,7 @@ public final class ViewController: UIViewController {
         self.view = View()
     }
 }
+
+#Preview {
+    ViewController()
+}

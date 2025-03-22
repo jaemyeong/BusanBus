@@ -13,3 +13,7 @@ public final class View: UIView {
         fatalError()
     }
 }
+
+#Preview {
+    View()
+}
