@@ -1,0 +1,44 @@
+{
+  "configurations" : [
+    {
+      "id" : "4DF9F496-06A6-416D-A3DD-B33303E5A9CB",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:BusanBus.xcodeproj",
+      "identifier" : "7BEF0FE02D8ECF4700D25F28",
+      "name" : "BusanBus"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/Core",
+        "identifier" : "CoreTests",
+        "name" : "CoreTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:BusanBus.xcodeproj",
+        "identifier" : "7BEF10042D8ECF4B00D25F28",
+        "name" : "BusanBusUITests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:BusanBus.xcodeproj",
+        "identifier" : "7BEF0FFA2D8ECF4B00D25F28",
+        "name" : "BusanBusTests"
+      }
+    }
+  ],
+  "version" : 1
+}
