@@ -1,9 +1,13 @@
 import UIKit
+import Core
 
 @main
 public final class AppDelegate: UIResponder, UIApplicationDelegate {
     
     public func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+        let configuration = UISceneConfiguration(name: UISceneConfiguration.defaultConfiguration.rawValue, sessionRole: connectingSceneSession.role)
+        configuration.delegateClass = SceneDelegate.self
+        
+        return configuration
     }
 }
