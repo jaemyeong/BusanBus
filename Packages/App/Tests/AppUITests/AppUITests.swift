@@ -1,18 +1,19 @@
 import XCTest
 
-public final class BusanBusUITests: XCTestCase {
+open class AppUITests: XCTestCase {
     
-    public override class var runsForEachTargetApplicationUIConfiguration: Bool {
+    public final override class var runsForEachTargetApplicationUIConfiguration: Bool {
         return true
     }
     
-    public override func setUp() {
+    public final override func setUp() {
         super.setUp()
         
         self.continueAfterFailure = false
     }
     
-    public func testView() {
+    @MainActor
+    public final func testView() {
         let app = XCUIApplication()
         app.launch()
         

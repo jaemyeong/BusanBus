@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B91B9242D8ED61400795E14 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 7B91B9232D8ED61400795E14 /* Core */; };
+		7B8817D02D8FDF1500801363 /* App in Frameworks */ = {isa = PBXBuildFile; productRef = 7B8817CF2D8FDF1500801363 /* App */; };
+		7B8817D22D8FE26B00801363 /* AppUITests in Frameworks */ = {isa = PBXBuildFile; productRef = 7B8817D12D8FE26B00801363 /* AppUITests */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B91B9242D8ED61400795E14 /* Core in Frameworks */,
+				7B8817D02D8FDF1500801363 /* App in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B8817D22D8FE26B00801363 /* AppUITests in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +152,7 @@
 			);
 			name = BusanBus;
 			packageProductDependencies = (
-				7B91B9232D8ED61400795E14 /* Core */,
+				7B8817CF2D8FDF1500801363 /* App */,
 			);
 			productName = BusanBus;
 			productReference = 7BEF0FE12D8ECF4700D25F28 /* BusanBus.app */;
@@ -197,6 +199,7 @@
 			);
 			name = BusanBusUITests;
 			packageProductDependencies = (
+				7B8817D12D8FE26B00801363 /* AppUITests */,
 			);
 			productName = BusanBusUITests;
 			productReference = 7BEF10052D8ECF4B00D25F28 /* BusanBusUITests.xctest */;
@@ -803,9 +806,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7B91B9232D8ED61400795E14 /* Core */ = {
+		7B8817CF2D8FDF1500801363 /* App */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Core;
+			productName = App;
+		};
+		7B8817D12D8FE26B00801363 /* AppUITests */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppUITests;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

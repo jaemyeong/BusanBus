@@ -8,6 +8,7 @@ public struct AppCoordinator {
     
     private let rootViewController: ViewController
     
+    @MainActor
     public init(window: UIWindow) {
         self.window = window
         
@@ -18,6 +19,7 @@ public struct AppCoordinator {
         self.navigationController = navigationController
     }
     
+    @MainActor
     public func start() {
         let window = self.window
         let navigationController = self.navigationController
