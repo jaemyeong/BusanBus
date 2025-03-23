@@ -3,44 +3,38 @@
 import PackageDescription
 
 let package = Package(
-    name: "App",
+    name: "Coordinator",
     defaultLocalization: "ko",
     platforms: [
         .iOS(.v18),
     ],
     products: [
         .library(
-            name: "App",
+            name: "Coordinator",
             targets: [
-                "App",
-            ]
-        ),
-        .library(
-            name: "AppUITests",
-            targets: [
-                "AppUITests",
+                "Coordinator",
             ]
         ),
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-log.git", from: "1.6.3"),
+        .package(path: "LaunchScreen"),
+        .package(path: "App"),
     ],
     targets: [
         .target(
-            name: "App",
+            name: "Coordinator",
             dependencies: [
                 .product(name: "Logging", package: "swift-log"),
+                .product(name: "LaunchScreen", package: "LaunchScreen"),
+                .product(name: "App", package: "App"),
             ]
         ),
         .testTarget(
-            name: "AppTests",
+            name: "CoordinatorTests",
             dependencies: [
-                "App",
+                "Coordinator",
             ]
         ),
-        .target(
-            name: "AppUITests",
-            path: "Tests/AppUITests"
-        )
     ]
 )

@@ -6,9 +6,9 @@ public final class LaunchScreenViewModel: ObservableObject {
     @Published
     public var isLoading: Bool = false
     
-    private let onInitializeSuccess: (() -> Void)
+    public var onInitializeSuccess: (() -> Void) = {}
     
-    private let onInitializeFailure: ((Error) -> Void)
+    public var onInitializeFailure: ((Error) -> Void) = { _ in }
     
     private var initializeWork: Task<Void, Never>? {
         willSet {
@@ -19,10 +19,7 @@ public final class LaunchScreenViewModel: ObservableObject {
         }
     }
     
-    public init(onInitializeSuccess: @escaping () -> Void, onInitializeFailure: @escaping (Error) -> Void) {
-        self.onInitializeSuccess = onInitializeSuccess
-        self.onInitializeFailure = onInitializeFailure
-    }
+    public init() {}
     
     @MainActor
     public func initialize() {

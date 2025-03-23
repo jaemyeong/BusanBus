@@ -1,4 +1,5 @@
 import UIKit
+import Coordinator
 
 public final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
