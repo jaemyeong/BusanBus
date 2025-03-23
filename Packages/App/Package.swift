@@ -15,10 +15,22 @@ let package = Package(
                 "App",
             ]
         ),
+        .library(
+            name: "AppUITests",
+            targets: [
+                "AppUITests",
+            ]
+        ),
+    ],
+    dependencies: [
+        .package(path: "Core"),
     ],
     targets: [
         .target(
-            name: "App"
+            name: "App",
+            dependencies: [
+                .product(name: "Core", package: "Core"),
+            ]
         ),
         .testTarget(
             name: "AppTests",
@@ -26,5 +38,9 @@ let package = Package(
                 "App",
             ]
         ),
+        .target(
+            name: "AppUITests",
+            path: "Tests/AppUITests"
+        )
     ]
 )
