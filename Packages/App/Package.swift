@@ -23,12 +23,14 @@ let package = Package(
         ),
     ],
     dependencies: [
+        .package(url: "https://github.com/apple/swift-log.git", from: "1.6.3"),
         .package(path: "Core"),
     ],
     targets: [
         .target(
             name: "App",
             dependencies: [
+                .product(name: "Logging", package: "swift-log"),
                 .product(name: "Core", package: "Core"),
             ]
         ),

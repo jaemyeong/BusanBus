@@ -17,10 +17,11 @@
   },
   "testTargets" : [
     {
+      "parallelizable" : true,
       "target" : {
-        "containerPath" : "container:Packages\/App",
-        "identifier" : "AppTests",
-        "name" : "AppTests"
+        "containerPath" : "container:BusanBus.xcodeproj",
+        "identifier" : "7BEF0FFA2D8ECF4B00D25F28",
+        "name" : "BusanBusTests"
       }
     },
     {
@@ -32,18 +33,17 @@
       }
     },
     {
-      "parallelizable" : true,
-      "target" : {
-        "containerPath" : "container:BusanBus.xcodeproj",
-        "identifier" : "7BEF0FFA2D8ECF4B00D25F28",
-        "name" : "BusanBusTests"
-      }
-    },
-    {
       "target" : {
         "containerPath" : "container:Packages\/Core",
         "identifier" : "CoreTests",
         "name" : "CoreTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/App",
+        "identifier" : "AppTests",
+        "name" : "AppTests"
       }
     }
   ],
