@@ -18,7 +18,7 @@ open class AppUITests: XCTestCase {
         app.launch()
         
         let view = app.otherElements["View"]
-        XCTAssertTrue(view.exists)
+        XCTAssertTrue(view.waitForExistence(timeout: 5.0))
         
         let textLabel = view.staticTexts["textLabel"]
         XCTAssertTrue(textLabel.exists)

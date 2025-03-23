@@ -1,6 +1,6 @@
 import UIKit
 import Logging
-import App
+import Core
 
 let logger: Logger = Logger(label: #function)
 

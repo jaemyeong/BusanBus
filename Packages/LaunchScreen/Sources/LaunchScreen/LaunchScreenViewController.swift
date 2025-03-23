@@ -50,7 +50,7 @@ public final class LaunchScreenViewController: UIViewController {
 }
 
 #Preview {
-    let viewModel = LaunchScreenViewModel(onInitializeSuccess: {}, onInitializeFailure: { _ in })
+    let viewModel = LaunchScreenViewModel()
     
     LaunchScreenViewController(viewModel: viewModel)
 }

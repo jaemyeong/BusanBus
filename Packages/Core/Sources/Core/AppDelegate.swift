@@ -1,6 +1,4 @@
 import UIKit
-import Logging
-import Core
 
 public final class AppDelegate: UIResponder, UIApplicationDelegate {
     

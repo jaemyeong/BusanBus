@@ -17,6 +17,27 @@
   },
   "testTargets" : [
     {
+      "target" : {
+        "containerPath" : "container:Packages\/Core",
+        "identifier" : "CoreTests",
+        "name" : "CoreTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/LaunchScreen",
+        "identifier" : "LaunchScreenTests",
+        "name" : "LaunchScreenTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Packages\/App",
+        "identifier" : "AppTests",
+        "name" : "AppTests"
+      }
+    },
+    {
       "parallelizable" : true,
       "target" : {
         "containerPath" : "container:BusanBus.xcodeproj",
@@ -34,16 +55,9 @@
     },
     {
       "target" : {
-        "containerPath" : "container:Packages\/Core",
-        "identifier" : "CoreTests",
-        "name" : "CoreTests"
-      }
-    },
-    {
-      "target" : {
-        "containerPath" : "container:Packages\/App",
-        "identifier" : "AppTests",
-        "name" : "AppTests"
+        "containerPath" : "container:Packages\/Coordinator",
+        "identifier" : "CoordinatorTests",
+        "name" : "CoordinatorTests"
       }
     }
   ],
