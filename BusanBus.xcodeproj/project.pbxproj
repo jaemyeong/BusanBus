@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B63D1652D903E19002B0CC9 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = 7B63D1642D903E19002B0CC9 /* Logging */; };
 		7B8817D02D8FDF1500801363 /* App in Frameworks */ = {isa = PBXBuildFile; productRef = 7B8817CF2D8FDF1500801363 /* App */; };
 		7B8817D22D8FE26B00801363 /* AppUITests in Frameworks */ = {isa = PBXBuildFile; productRef = 7B8817D12D8FE26B00801363 /* AppUITests */; };
 /* End PBXBuildFile section */
@@ -72,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B63D1652D903E19002B0CC9 /* Logging in Frameworks */,
 				7B8817D02D8FDF1500801363 /* App in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +155,7 @@
 			name = BusanBus;
 			packageProductDependencies = (
 				7B8817CF2D8FDF1500801363 /* App */,
+				7B63D1642D903E19002B0CC9 /* Logging */,
 			);
 			productName = BusanBus;
 			productReference = 7BEF0FE12D8ECF4700D25F28 /* BusanBus.app */;
@@ -237,6 +240,9 @@
 			);
 			mainGroup = 7B507E3F2D8583CC00070373;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7B63D1632D903E19002B0CC9 /* XCRemoteSwiftPackageReference "swift-log" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7BEF0FE22D8ECF4700D25F28 /* Products */;
 			projectDirPath = "";
@@ -805,7 +811,23 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		7B63D1632D903E19002B0CC9 /* XCRemoteSwiftPackageReference "swift-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-log.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		7B63D1642D903E19002B0CC9 /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B63D1632D903E19002B0CC9 /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
+		};
 		7B8817CF2D8FDF1500801363 /* App */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = App;
