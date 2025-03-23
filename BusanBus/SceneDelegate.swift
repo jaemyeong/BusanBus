@@ -4,6 +4,8 @@ public final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     public var window: UIWindow?
     
+    public var coordinator: AppCoordinator?
+    
     public func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         assert(scene is UIWindowScene)
         let windowScene = scene as! UIWindowScene
@@ -11,9 +13,9 @@ public final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         self.window = window
         
-        let viewController = ViewController()
+        let coordinator = AppCoordinator(window: window)
+        self.coordinator = coordinator
         
-        window.rootViewController = viewController
-        window.makeKeyAndVisible()
+        coordinator.start()
     }
 }

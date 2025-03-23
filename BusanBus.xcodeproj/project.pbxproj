@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B339A3C2D8FC9A700040A98 /* App */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = App; path = Packages/App; sourceTree = "<group>"; };
 		7BEF0FE12D8ECF4700D25F28 /* BusanBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusanBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEF0FFB2D8ECF4B00D25F28 /* BusanBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusanBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEF10052D8ECF4B00D25F28 /* BusanBusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusanBusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +124,7 @@
 		7BEF10312D8ED54000D25F28 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				7B339A3C2D8FC9A700040A98 /* App */,
 				7BEF10332D8ED59A00D25F28 /* Core */,
 			);
 			name = Packages;
